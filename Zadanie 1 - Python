@@ -1,0 +1,199 @@
+
+#Zadanie 1
+#koło
+"""
+promien  = float(input('Podaj promień koła'))
+
+obwod = 2 * 3.14 * promien
+pole = 3.14 * promien**2
+
+print('Obwód koła o promieniu', promien, 'wynosi', obwod)
+print('Pole koła o promieniu', promien, 'wynosi', pole)
+"""
+
+#kwadrat
+"""
+bok = float(input('Podaj rozmiar boku kwadratu'))
+
+obwod = 4 * bok
+pole = bok**2
+
+print('Pole kwadratu o boku', bok, 'wynosi', pole)
+print('Obwód kwadratu o boku', bok, 'wynosi', obwod)
+"""
+
+#prostokat
+"""
+bok1 = float(input('Podaj rozmiar pierwszego boku prostokąta'))
+bok2 = float(input('Podaj rozmiar drugiego boku prostokąta'))
+
+obwod = bok1 * 2 + bok2 *2
+pole = bok1 * bok2
+
+print('Pole prostokąta o bokach', bok1 ,",", bok2, 'wynosi', pole)
+print('Obwód prostokąta o bokach', bok1 ,",", bok2, 'wynosi', obwod)
+"""
+#trójkąt
+
+"""
+podstawa = float(input('Podaj podstawę trójkąta'))
+wysokosc = float(input('Podaj wysokość trójkąta'))
+
+pole = 0.5 * podstawa * wysokosc
+
+print('Pole trójkąta o podstawie', podstawa , 'i wysokości', wysokosc, "wynosi", pole)
+"""
+
+#Zadanie 2
+
+"""
+figura = str(input('Podaj figurę, której obwód i pole chcesz policzyć(koło, kwadrat, prostokąt lub trójkąt)'))
+
+
+if (figura=="koło"):
+    promien = float(input('Podaj promień koła'))
+
+    obwod = 2 * 3.14 * promien
+    pole = 3.14 * promien ** 2
+
+    print('Obwód koła o promieniu', promien, 'wynosi', obwod)
+    print('Pole koła o promieniu', promien, 'wynosi', pole)
+
+elif (figura=="kwadrat"):
+    bok = float(input('Podaj rozmiar boku kwadratu'))
+
+    obwod = 4 * bok
+    pole = bok ** 2
+
+    print('Pole kwadratu o boku', bok, 'wynosi', pole)
+    print('Obwód kwadratu o boku', bok, 'wynosi', obwod)
+
+elif (figura=="prostokąt"):
+    bok1 = float(input('Podaj rozmiar pierwszego boku prostokąta'))
+    bok2 = float(input('Podaj rozmiar drugiego boku prostokąta'))
+
+    obwod = bok1 * 2 + bok2 * 2
+    pole = bok1 * bok2
+
+    print('Pole prostokąta o bokach', bok1, ",", bok2, 'wynosi', pole)
+    print('Obwód prostokąta o bokach', bok1, ",", bok2, 'wynosi', obwod)
+
+elif (figura=="trójkąt"):
+    podstawa = float(input('Podaj podstawę trójkąta'))
+    wysokosc = float(input('Podaj wysokość trójkąta'))
+
+    pole = 0.5 * podstawa * wysokosc
+
+    print('Pole trójkąta o podstawie', podstawa, 'i wysokości', wysokosc, "wynosi", pole)
+else:
+    print('Nie podałeś poprawnej nazwy figury')
+    
+    """
+
+#Zadanie 3
+
+"""
+liczba = int(input('Podaj liczbę'))
+
+for i in range(liczba):
+    print(liczba)
+    """
+
+
+#Zadanie 4
+
+"""
+n = int(input("Wpisz liczbę, której zakres od zera chcesz spotęgować"))
+for i in range(0, n+1, 1):
+    potęgi = i**2
+    print(potęgi)
+    """
+
+#Zadanie 5
+
+"""
+liczba = int(input("Wpisz liczbę "))
+for x in range(liczba+1):
+    for i in range(x):
+        print(x, end=" ")
+
+    print(" ")
+"""
+
+#Zadanie 6
+
+"""
+liczba = int(input("Wpisz liczbę od 1-100"))
+
+if liczba > 1:
+    for i in range(2, liczba):
+        if (liczba % i) == 0:
+            print(liczba, "nie jest liczbą pierwszą")
+            break
+    else:
+        print(liczba, "jest liczbą pierwszą")
+else:
+    print(liczba, "nie jest liczbą pierwszą")
+"""
+
+"""
+#Zadanie 7
+liczba = int(input("Wpisz liczbę od 1-100"))
+
+
+if (liczba % 3 == 0 and liczba % 5 == 0 and liczba % 2==0):
+    print('HotFizzBuzz')
+
+elif(liczba%2==0 and liczba%3==0):
+    print('HotFizz')
+
+elif(liczba%2==0 and liczba%5==0):
+    print('HotBuzz')
+
+elif (liczba % 3 == 0 and liczba % 5 == 0):
+    print('BuzzFizz')
+
+
+elif (liczba%2==0):
+    print('Hot')
+
+elif(liczba%3==0):
+    print('Fizz')
+
+elif(liczba%5==0):
+    print('Buzz')
+"""
+
+#Zadanie 8
+
+""""
+lista = [1,99,100,50,234,345,123,345,123,645,234,756,234,457,1000,1100]
+
+for i in lista:
+    if (i>100):
+        print(i)
+        """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
